@@ -1,0 +1,57 @@
+
+    body {
+      margin: 0; 
+      overflow: hidden;
+      background: black;
+      font-family: Arial, sans-serif;
+    }
+    #controls, #buttons {
+      position: absolute;
+      top: 10px;
+      z-index: 10;
+      background: rgba(0,0,0,0.6);
+      padding: 12px;
+      border-radius: 8px;
+      color: white;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    #controls {
+      left: 10px;
+      width: 160px;
+    }
+    #buttons {
+      right: 10px;
+    }
+    label {
+      font-size: 13px;
+      display: block;
+      margin-top: 8px;
+    }
+    input[type="range"] {
+      width: 130px;
+    }
+    button {
+      margin-top: 5px;
+      padding: 6px 12px;
+      font-size: 14px;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    canvas {
+      display: block;
+    }
+    .label {
+      position: absolute;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      pointer-events: none;
+      text-shadow: 0 0 6px black;
+      user-select: none;
+      white-space: nowrap;
+    }
